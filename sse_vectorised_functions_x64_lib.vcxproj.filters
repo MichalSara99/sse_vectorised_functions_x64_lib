@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{c5d5d5e2-5f04-4ef8-9fde-76c056bc31f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{b600d7c9-4674-4d70-8505-71dcbf30493d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asm_x64">
+      <UniqueIdentifier>{7b636eba-8bae-4277-9654-ace8893ae937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asm_x64_incs">
+      <UniqueIdentifier>{bb980ab7-a4dd-48aa-ae27-3602b87e894f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sse_math_x64_lib.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\framework.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\pch.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\basic_operations.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\math_constants.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\sse_math_x64.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\sse_math_x64_lib.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\sse_utilities.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\basic_functions.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\exp_functions.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\log_functions.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\normal_dist_functions.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\special_functions.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\trig_functions.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="asm_x64\basic_operations_.asm">
+      <Filter>asm_x64</Filter>
+    </MASM>
+    <MASM Include="asm_x64\basic_functions_.asm">
+      <Filter>asm_x64</Filter>
+    </MASM>
+    <MASM Include="asm_x64\exp_fast_functions_.asm">
+      <Filter>asm_x64</Filter>
+    </MASM>
+    <MASM Include="asm_x64\exp_functions_.asm">
+      <Filter>asm_x64</Filter>
+    </MASM>
+    <MASM Include="asm_x64\log_functions_.asm">
+      <Filter>asm_x64</Filter>
+    </MASM>
+    <MASM Include="asm_x64\normal_dist_functions_.asm">
+      <Filter>asm_x64</Filter>
+    </MASM>
+    <MASM Include="asm_x64\sincos_functions_.asm">
+      <Filter>asm_x64</Filter>
+    </MASM>
+    <MASM Include="asm_x64\special_functions_.asm">
+      <Filter>asm_x64</Filter>
+    </MASM>
+    <MASM Include="asm_x64\tancot_functions_.asm">
+      <Filter>asm_x64</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="asm_x64_incs\basic_operations.inc">
+      <Filter>asm_x64_incs</Filter>
+    </None>
+    <None Include="asm_x64_incs\basic_functions.inc">
+      <Filter>asm_x64_incs</Filter>
+    </None>
+    <None Include="asm_x64_incs\exp_fast_functions.inc">
+      <Filter>asm_x64_incs</Filter>
+    </None>
+    <None Include="asm_x64_incs\exp_functions.inc">
+      <Filter>asm_x64_incs</Filter>
+    </None>
+    <None Include="asm_x64_incs\log_functions.inc">
+      <Filter>asm_x64_incs</Filter>
+    </None>
+    <None Include="asm_x64_incs\normal_dist_functions.inc">
+      <Filter>asm_x64_incs</Filter>
+    </None>
+    <None Include="asm_x64_incs\sincos_functions.inc">
+      <Filter>asm_x64_incs</Filter>
+    </None>
+    <None Include="asm_x64_incs\special_functions.inc">
+      <Filter>asm_x64_incs</Filter>
+    </None>
+  </ItemGroup>
+</Project>

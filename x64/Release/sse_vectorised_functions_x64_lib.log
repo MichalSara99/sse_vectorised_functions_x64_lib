@@ -1,0 +1,8 @@
+﻿  sse_math_x64_lib.cpp
+     Creating library D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\x64\Release\sse_vectorised_functions_x64_lib.lib and object D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\x64\Release\sse_vectorised_functions_x64_lib.exp
+  Generating code
+  0 of 123 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  sse_vectorised_functions_x64_lib.vcxproj -> D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\x64\Release\sse_vectorised_functions_x64_lib.dll
